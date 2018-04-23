@@ -1,0 +1,27 @@
+{
+  "name": "Background Colour Change",
+  "version": "0.1",
+  "description": "Background Colour Change",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["jquery.js","background.js"],
+    "persistent": false
+  },
+  "options_page": "options.html",
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/h42-square.png",
+      "32": "images/h42-square.png",
+      "48": "images/h42-square.png",
+      "128": "images/h42-square.png"
+    }
+  },
+  "icons": {
+    "16": "images/h42-square.png",
+    "32": "images/h42-square.png",
+    "48": "images/h42-square.png",
+    "128": "images/h42-square.png"
+  },
+  "manifest_version": 2
+}
